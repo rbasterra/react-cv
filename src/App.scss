@@ -1,1 +1,23 @@
 @import '~bootstrap/scss/bootstrap';
+@import './components/Hero/hero';
+@import './components/Education/Education';
+@import './components/Experience/Experience';
+@import './components/Languages/Languages';
+@import './components/Skills/Skills';
+@import './components//Volunteer/Volunteer';
+
+.App {
+    // display: flex;
+    // flex-flow: column nowrap;
+    // justify-content: space-around;
+    // height: 100vh;
+    background-color: lightgrey;
+}
+
+.btn-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
